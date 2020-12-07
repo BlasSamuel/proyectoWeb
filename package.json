@@ -1,0 +1,30 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "description": "proyecto de casas para la clase de programacion web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlasSamuel/proyectoWeb.git"
+  },
+  "keywords": [
+    "npm",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "samuel blas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlasSamuel/proyectoWeb/issues"
+  },
+  "homepage": "https://github.com/BlasSamuel/proyectoWeb#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

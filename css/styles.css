@@ -28,10 +28,10 @@ body{
 img{
     max-width: 100%;
 }
-/*.container{
+.container{
     max-width: 120rem;
    margin: 0 auto;
-}*/
+}
 h1{
     font-size: 3.8rem;
 }
@@ -60,7 +60,7 @@ h4{
     padding-top: 30px;
 }
 .contenido-header h1{
-    
+    color:#28B463;
     color: white;
     line-height: 1.7;
 
