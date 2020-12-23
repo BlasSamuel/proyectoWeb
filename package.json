@@ -23,7 +23,11 @@
     "url": "https://github.com/BlasSamuel/proyectoWeb/issues"
   },
   "homepage": "https://github.com/BlasSamuel/proyectoWeb#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.0"
+  },
   "devDependencies": {
     "lite-server": "^2.6.1"
   }

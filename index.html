@@ -1,11 +1,231 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Departamentos</title>
 </head>
+
 <body>
-    hola gg
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+            <a class="navbar-brand " href="#"><img src="./img/logo.svg" alt="" style="width:130px;"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto ">
+                  <li class="nav-item active">
+                    <router-link class="nav-link" to="/" >Inicio <span class="sr-only">(current)</span></router-link>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <router-link class="nav-link" to="/about" >Nosotros </router-link>
+                  </li>
+                  <li class="nav-item">
+                    <router-link class="nav-link" to="/log" >Anuncios </router-link>
+                  </li>
+                  <li class="nav-item">
+                      <router-link class="nav-link" to="/log" >Blog </router-link>
+                    </li>
+                    <li class="nav-item">
+                      <router-link class="nav-link" to="/log" >Contacto </router-link>
+                    </li>
+                  
+                </ul>
+                
+              </div>
+           
+            
+          </nav>
+    </header>
+
+
+   <!--<div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="../img/seguridad.svg" alt="icono seguridad">
+                <h3>seguridad</h3>
+                <p>Contamos con las más extrictas reglas sobre los habitantes, para que tu y tu familia se encuentren
+                    seguros</p>
+            </div>
+            <div class="col-sm">
+                <img src="../img/precio.svg" alt="">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                    odio esse veritatis nesciunt magni ratione nostrum molestiae<br>
+                    natus assumenda minus?</p>
+            </div>
+            <div class="col-sm">
+                <img src="../img/tiempo.svg" alt="">
+                <h3>A tiempo</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                    odio esse veritatis nesciunt magni ratione nostrum molestiae<br>
+                    natus assumenda minus?</p>
+            </div>
+        </div>
+    </div>-->
+    <main role="main">
+
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1>Renta de departamentos</h1>
+            <p class="lead text-muted">Encuentra Las Mejores Zonas Exclusivas.</p>
+            <p>
+              <a href="#" class="btn btn-primary my-2">Llamanos</a>
+              <a href="#" class="btn btn-secondary my-2">Conoce Más</a>
+            </p>
+          </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <img src="../img/seguridad.svg" alt="icono seguridad" class="img-description">
+                  <div class="card-body">
+                    <h3>seguridad</h3>
+                    <p class="card-text">Ofrecemos la mejor seguridad, para tu tranquilidad y la de tu familia.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="../img/precio.svg" alt="" class="img-description">
+                  <div class="card-body">
+                    <h3>El mejor precio</h3>
+                    <p class="card-text">los mejores precios solo los encontraras aqui.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                     
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="../img/tiempo.svg" alt="" class="img-description">
+                  <div class="card-body">
+                    <h3>A tiempo</h3>
+                    <p class="card-text">estas a tiempo de encontrar el mejor departamento, agenda con nosotros.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                     
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              
+             
+             
+            </div>
+            <!--
+                  <div class="anuncio">
+                    <img src="../img/lago.jpg" alt="">
+                    <div class="contenido-anuncio">
+                        <h3>casa de lujo en el lago</h3>
+                        <p>Casa en el lago con excelente vista,
+                            con acabados de<br> lujo a un excelente precio
+                        </p>
+                        <p class="precio">$3,000,000</p>
+                        <ul class="iconos-caracteristicas ">
+                            <li>
+                                <img src="../img/taza.svg" alt="icono wc">
+                                <p>3</p>
+                            </li>
+                            <li>
+                                <img src="../img/logoAuto.svg" alt="estacionamiento">
+                                <p>3</p>
+                            </li>
+                            <li>
+                                <img src="../img/icono-cama.svg" alt="cama">
+                                <p>3</p>
+                            </li>
+
+                        </ul>
+                        <a class="boton boton-amarillo">ver propiedad</a>
+                    </div>
+                </div>
+            -->
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img src="../img/lago.jpg" alt="" class="img_anuncio">
+                    <div class="card-body">
+                      <h3>casa de lujo en el lago</h3>
+                      <p class="card-text">Casa en el lago con excelente vista,
+                        con acabados de lujo a un excelente precio</p>
+                        <p class="precio">$3,000,000</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <button type="button" class="btn btn-warning btn-lg btn-block boton">ver propiedad</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img src="../img/lujo.jpg" alt="" class="img_anuncio">
+                    <div class="card-body">
+                      <h3>casa terminados de lujo</h3>
+                      
+                      <p class="card-text">Casa con diseño moderno, asi como tecnología 
+                        inteligente y amueblada</p>
+                      <p class="precio">$3,000,000</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <button type="button" class="btn btn-warning btn-lg btn-block boton">ver propiedad</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img src="../img/alberca.jpg" alt="" class="img_anuncio">
+                    <div class="card-body">
+                      <h3>casa con alberca</h3>
+                      
+                      <p class="card-text">Casa con diseño moderno, asi como tecnología 
+                        inteligente y amueblada</p>
+                      <p class="precio">$3,000,000</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                       
+                       <button type="button" class="btn btn-warning btn-lg btn-block boton">ver propiedad</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                
+               
+               
+              </div>
+            
+          </div>
+        </div>
+      
+      </main>
+      
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>

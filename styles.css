@@ -1,0 +1,60 @@
+p, h3 {
+  text-transform: capitalize;
+}
+.img-description{
+  margin-top: 1rem;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background-image: url(./img/apar.jpg);
+  background-position: center center;
+ 
+  background-size: cover;
+  
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+.jumbotron p {
+  margin-top: 1rem;
+  color: black !important;
+  font-weight: 400;
+}
+.img_anuncio{
+  max-height: 28vh;
+}
+.boton{
+  padding: 1rem 0;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color:#E08709;
+}
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
