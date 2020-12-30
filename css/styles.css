@@ -416,7 +416,10 @@ width: 50%;
 .iconos-Anuncios li{
     margin-right: 20%;
 }
-/*-----------blog--------------*/
-.container-blog{
-    /*justify-content: center;*/
+/*-----------contacto--------------*/
+.info-personal, .info-propiedad{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 1px #9CA6A0;
+    
 }
