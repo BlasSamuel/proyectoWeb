@@ -37,7 +37,7 @@
         <div class="container contenido-header ">
 
             <div class="barra ">
-                <a href="/">
+                <a href="./index.html">
                     <img src="../img/logo.svg" alt="Logotipo de Bienes Raices"></a>
                 <nav class="navegacion">
 
@@ -65,7 +65,7 @@
                 <h1 class="text-center">Llena el formulario de contacto</h1>
                 <form action="/action_page.php">
                     <div class="info-personal">
-                        <h3>Información Personal</h3>
+                        <h3 class="titulos titulo-personal">Información Personal</h3>
                         <label for="name">Nombre:</label><br>
                         <input type="text" class="form-control" id="" placeholder="Tu Nombre" required>
                         <label for="email">E-mail:</label><br>
@@ -78,7 +78,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> <br>
                     </div>
                     <div class="info-propiedad">
-                        <h3>Información Sobre Propiedad </h3>
+                        <h3 class="titulos titulo-propiedad">Información Sobre Propiedad </h3>
                          <div class="form-group">
                             <label for="exampleFormControlSelect1">Vende o Compra:</label>
                             <select class="form-control" id="exampleFormControlSelect1">
@@ -92,13 +92,12 @@
                         <input type="text" class="form-control" id="" placeholder="" required>
                     </div>
                     <div class="contacto">
-                        <h2>contacto</h2>
+                        <h3 class="titulos titulo-contacto">contacto</h3>
                         <label for="">Como desea ser Contactado:</label>
-                        <label for=""></label>
-                        <label for="">Correo</label>
+                        
                         <p class="auto-style3">
                             <input name="pago1" type="radio" value="correo"/>
-                                &nbsp;
+                            
                                 <span class="auto-style4"> 
                                 Correo
                                 </span>
@@ -110,26 +109,13 @@
                             </span>
                         </p>
                         <div id="div1" style="display:;">
-                            <p class="auto-style3">
-                                <span class="auto-style4">
-                                    CLAVE Bancaria:
-                                </span>
-                            </p>
-                            <p class="auto-style1">
-                                <input type="number" name="RECEIVER_BANK_ACCOUNT_NUMBER" id="RECEIVER_BANK_ACCOUNT_NUMBER" required class="auto-style5"/>
-                            </p>
-                            <p class="auto-style3">
-                                <span class="auto-style4">
-                                    Confirma CLAVE Bancaria:
-                                </span>
-                            </p>
-                            <input type="date" id="start" name="trip-start"
+                            <label for="">Fecha:</label> <br>
+                            <input class="inputs" type="date" id="start" name="trip-start"
                             value="2020-12-29"
-                            min="2020-01-01" max="2025-12-31">
-
-                            <p class="auto-style1">
-                                <input type="number" name="RECEIVER_ACCOUNT_NUMBER_CONFIRMATION" id="RECEIVER_ACCOUNT_NUMBER_CONFIRMATION" required class="auto-style5"/> 
-                            </p>
+                            min="2020-01-01" max="2025-12-31"> <br>
+                            <label for="">Hora:</label> <br>
+                            <input class="inputs" type="time" name="time"> 
+                            
                         </div>
                                 
                         <div id="div2" style="display:none;">
@@ -137,9 +123,11 @@
                               <span>Has seleccionado correo</span>
                             
                         </div>
-                    </div>
+                    
     
-                    <input type="submit" value="Submit">
+                    <!--<input type="submit"  class="btn btn-" value="Submit">-->
+                    <button type="button" class="btn btn-success btn-lg btn-block "> Enviar</button>
+                </div>
                 </form>
             </div>
         </div>
@@ -148,8 +136,8 @@
 
         
     </main>
-    <!--
-    <footer>
+    
+    <footer class="footer-contacto">
         <div class="container-footer">
             <div class="nav-footer">
                 <nav class="navegacion">
@@ -168,7 +156,7 @@
                 <p>todos los derechos reservados &copy;</p>
             </div>
         </div>
-    </footer>-->
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

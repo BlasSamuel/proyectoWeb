@@ -417,9 +417,37 @@ width: 50%;
     margin-right: 20%;
 }
 /*-----------contacto--------------*/
-.info-personal, .info-propiedad{
+.info-personal, .info-propiedad, .contacto{
     border: 1px solid;
     padding: 10px;
     box-shadow: 0px 0px 5px 1px #9CA6A0;
+    margin-top: 4rem;
     
+}
+.contacto{
+    margin-bottom: 4rem;
+}
+.inputs{
+    width: 100%;
+    border: none;
+}
+.titulos{
+    margin-top: -3rem;
+    background: white;
+    
+}
+.titulo-personal{
+    width: 50%;
+}
+.titulo-propiedad{
+    width: 70%;
+}
+.titulo-contacto{
+    width: 20%;
+}
+input, select, textarea{
+    background-color: #C2CFC7 !important;
+}
+.footer-contacto{
+    margin-top: 30rem;
 }
